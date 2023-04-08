@@ -25,7 +25,6 @@ Commision calculation based on transaction type and business type
  For run and  import csv file use below command  :
 
  >`php index.php sample.csv`  
- <br />
  Sample csv file is in root directory of project.
 
   __Step 4 :__
