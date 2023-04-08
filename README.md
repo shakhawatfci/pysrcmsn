@@ -32,5 +32,4 @@ Commision calculation based on transaction type and business type
  Initiate system's tests :
 
 > `composer run test` <br/>
-    or <br/>
- `vendor/bin/phpunit tests` 
+
