@@ -15,13 +15,22 @@ Commision calculation based on transaction type and business type
 >`https://github.com/shakhawatfci/pysrcmsn`
 
  __Step 2 :__
- Use both command run in terminal for go to project directory and install composer:
+ Use below commands to install the project:
 >`cd pysrcmsn` 
  and  `composer install` 
  may need to run `composer dump-autoload` 
  <br /> 
 
  __Step 3 :__ 
- Run system for use this command:
+ For run and  import csv file use below command  :
 
  >`php index.php sample.csv`  
+ <br />
+ Sample csv file is in root directory of project.
+
+  __Step 4 :__
+ Initiate system's tests :
+
+> `composer run test` <br/>
+    or <br/>
+ `vendor/bin/phpunit tests` 

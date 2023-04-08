@@ -15,7 +15,7 @@ return [
             'precision' => 2,
         ],
         'JPY' => [
-            'rate'      => 129.53,
+            'rate'      => 130.869977,
             'precision' => 0,
         ],
     ],
