@@ -7,7 +7,7 @@ trait OnlineCurrency
 
     public function getOnlineCurrencyRateList($url): array
     {
-        $url      = 'https://developers.paysera.com/tasks/api/currency-exchange-rates';
+        
         $response = file_get_contents($url);
         if (!$response) {
             return [];
